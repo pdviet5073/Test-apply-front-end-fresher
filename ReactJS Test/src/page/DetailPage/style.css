@@ -1,0 +1,31 @@
+.user {
+   width: 35%;
+   
+}
+.user p{
+    display: flex;
+    
+}
+.user p span:first-child{
+    width: 30%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.detail-search{
+    width: 40%;
+}
+
+.photo p{
+    width:100%;
+    white-space: pre-wrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+     display: -webkit-box;
+}
